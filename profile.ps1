@@ -34,9 +34,9 @@ function Get-Batchfile($file)
 
 
 ###############################################################################
-# Sets the VS variables for this PS session to use (for VS 2012)
+# Sets the VS variables for this PS session to use (for VS 2013)
 ###############################################################################
-function VsVars32($version = "11.0")
+function VsVars32($version = "12.0")
 {
 	# 64bit Key in Registry
     $theKey = "HKLM:SOFTWARE\Wow6432Node\Microsoft\VisualStudio\" + $version
@@ -48,7 +48,7 @@ function VsVars32($version = "11.0")
     Get-Batchfile $theBatchFile
     [System.Console]::Title = "Visual Studio " + $version + " Windows Powershell"
 	
-	Write-Host "[Profile.ps1] Visual Studio 2012 CMD Commands set" -Foreground Green
+	Write-Host "[Profile.ps1] Visual Studio 2013 CMD Commands set" -Foreground Green
 }
 
 function SetupPowershellHistory() {
