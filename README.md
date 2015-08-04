@@ -5,6 +5,10 @@ Sharing configuration files with the world.
 
 profile.ps1
 =======
+
+Savelocation:
+C:\Users\ACCNAME\Documents\WindowsPowerShell\
+
 Enables:
 - Command History
 - VS 2013 Cmds
