@@ -15,3 +15,10 @@ Enables:
 - Warning (Dark Red Background) in evelated mode
 
 MIT License. For details see LICENSE.txt
+
+
+ChocolateySystemSetup.bat
+=======
+
+PC Setup - first install Chocolatey:
+https://chocolatey.org
